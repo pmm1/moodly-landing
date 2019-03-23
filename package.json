@@ -1,0 +1,19 @@
+{
+  "name": "moodly-landing",
+  "version": "1.0.0",
+  "description": "Landing page for moodly.cc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmm1/moodly-landing.git"
+  },
+  "author": "pmm1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmm1/moodly-landing/issues"
+  },
+  "homepage": "https://github.com/pmm1/moodly-landing#readme"
+}
