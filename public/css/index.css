@@ -15,6 +15,7 @@ body {
   height: 90px;
   padding-top: 40px;
   display: flex;
+  z-index: 20;
 }
 
 #navbar .left {
@@ -29,6 +30,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  z-index: 10;
 }
 
 
@@ -119,4 +121,42 @@ p {
   max-height: 440px;
   position: absolute;
   right: 0;
+}
+
+#mobile-heroImg {
+  display: none;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media screen and (max-width: 767px) {
+  #mobile-heroImg {
+    position: relative;
+    display: block;
+    margin-top: -140px;
+    margin-bottom: -60px;
+  }
+
+  .wrapper {
+    padding-bottom: 50px;
+  }
+
+  #navbar {
+    z-index: 20;
+    width: 92%;
+  }
+
+  #heroImg {
+    display: none;
+  }
+
 }
