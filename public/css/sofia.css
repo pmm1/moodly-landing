@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Sofia';
+  src:url('./font/Sofia300.woff') format('woff'),
+       url('./font/SofiaW03-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Sofia';
+  src:url('./font/Sofia400.woff') format('woff'),
+       url('./font/SofiaW03-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Sofia';
+  src:url('./font/Sofia700.woff') format('woff'),
+       url('./font/SofiaW03-SemiBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}

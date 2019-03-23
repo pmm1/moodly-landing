@@ -3,11 +3,114 @@
 body {
   margin: 0;
   padding: 0;
+  color: #333333;
 }
 
 
 .wrapper {
-  background-color: #f9f9f9;
-  width: 300px;
-  height: 300px;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+#navbar {
+  width: 90%;
+  margin: 0 auto;
+  height: 90px;
+  padding-top: 40px;
+  display: flex;
+}
+
+#navbar .left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#navbar .right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+#logo {
+  height: 42px;
+  width: auto;
+}
+
+.ui.large.basic.button.moodly-button {
+  color: #F66D72 !important;
+  background-color: #fff !important;
+  border: 1px solid #F66D72;
+  font-weight: 18px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-family: 'Sofia','Source Sans Pro', Arial, Helvetica, sans-serif;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.ui.large.basic.button.moodly-button:hover {
+  opacity: 0.8;
+}
+
+
+
+#main {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #333333;
+  font-size: 48px;
+  font-family: 'Sofia','Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #333333;
+  font-size: 20px;
+  font-family: 'Sofia','Source Sans Pro', Arial, Helvetica, sans-serif;
+  font-weight: 300 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.4;
+}
+
+
+.main-content {
+  max-width: 500px;
+}
+
+.main-content-button {
+  max-width: 450px;
+}
+
+
+.ui.right.labeled.icon.button.moodly.button {
+  color: #ffffff !important;
+  background-color: #F66D72 !important;
+  /* border: 1px solid #F66D72; */
+  font-weight: 18px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-family: 'Sofia','Source Sans Pro', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.ui.right.labeled.icon.button.moodly.button:hover {
+  background-color: #e85c61 !important;
+}
+
+
+.ui.basic.button:hover, .ui.basic.buttons:hover .button:hover {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
