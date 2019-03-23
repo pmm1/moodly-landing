@@ -7,14 +7,10 @@ body {
 }
 
 
-.wrapper {
-  height: 100vh;
-  width: 100vw;
-}
 
 
 #navbar {
-  width: 90%;
+  width: 82%;
   margin: 0 auto;
   height: 90px;
   padding-top: 40px;
@@ -46,8 +42,8 @@ body {
   background-color: #fff !important;
   border: 1px solid #F66D72;
   font-weight: 18px;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: 'Sofia','Source Sans Pro', Arial, Helvetica, sans-serif;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
@@ -60,17 +56,23 @@ body {
 
 
 #main {
-  width: 90%;
-  margin: 0 auto;
+
   padding-top: 70px;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+#main-container {
+  width: 82%;
+  margin: 0 auto;
 }
 
 h1 {
   color: #333333;
   font-size: 48px;
   font-family: 'Sofia','Source Sans Pro', Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 p {
@@ -78,7 +80,7 @@ p {
   font-size: 20px;
   font-family: 'Sofia','Source Sans Pro', Arial, Helvetica, sans-serif;
   font-weight: 300 !important;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
   line-height: 1.4;
 }
@@ -96,8 +98,6 @@ p {
 .ui.right.labeled.icon.button.moodly.button {
   color: #ffffff !important;
   background-color: #F66D72 !important;
-  /* border: 1px solid #F66D72; */
-  font-weight: 18px;
   padding-top: 22px;
   padding-bottom: 22px;
   font-family: 'Sofia','Source Sans Pro', Arial, Helvetica, sans-serif;
@@ -113,4 +113,10 @@ p {
 .ui.basic.button:hover, .ui.basic.buttons:hover .button:hover {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
+}
+
+#heroImg {
+  max-height: 440px;
+  position: absolute;
+  right: 0;
 }
