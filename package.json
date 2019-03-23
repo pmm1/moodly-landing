@@ -4,7 +4,8 @@
   "description": "Landing page for moodly.cc",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/pmm1/moodly-landing/issues"
   },
-  "homepage": "https://github.com/pmm1/moodly-landing#readme"
+  "homepage": "https://github.com/pmm1/moodly-landing#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "forcedomain": "^1.0.1"
+  }
 }
