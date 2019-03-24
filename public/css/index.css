@@ -11,6 +11,7 @@ body {
 
 #navbar {
   width: 82%;
+  max-width: 1000px;
   margin: 0 auto;
   height: 90px;
   padding-top: 40px;
@@ -68,6 +69,7 @@ body {
 #main-container {
   width: 82%;
   margin: 0 auto;
+  max-width: 1000px;
 }
 
 h1 {
@@ -129,8 +131,23 @@ p {
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1580px) {
 
+  #heroImg {
+    max-height: 600px;
+    position: absolute;
+    right: 0;
+  }
+
+  h1 {
+    margin-top: 110px;
+  }
+
+
+}
+
+.ui.large.basic.button.moodly-button {
+  margin-right: -20%;
 }
 
 /*
@@ -144,6 +161,10 @@ p {
     display: block;
     margin-top: -140px;
     margin-bottom: -60px;
+  }
+
+  .ui.large.basic.button.moodly-button {
+    margin-right: 0 !important;
   }
 
   .wrapper {
